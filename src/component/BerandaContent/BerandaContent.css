@@ -1,0 +1,173 @@
+/*sidebar */
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+h1,h2,h3 {
+font-family: Pacifico;	
+}
+h1,h4 {
+text-align: center;	
+}
+h1{
+    color: black;  
+}
+h3{
+	font-size: 30px;	
+}
+h5{
+	font-size: 25px;
+}
+span{
+	color: #36A5B2;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: #36A5B2;;
+}
+p{
+	font-size: 30px;
+	font-family: Pacifico;
+}
+ 
+/*about content*/
+
+.text{
+	margin:30px;
+	margin-top: 210px;
+	margin-bottom:  100px;
+	margin-left: -520px;
+	font-size: 28px;
+}
+.about1 {
+margin-left: 80px;
+width: 150px;
+border: 2px solid #36A5B2;
+border-radius: 20px;
+box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.about1:hover {
+background-color: #36A5B2;  
+color: white;
+}
+#header{
+  margin-top: -210px;
+  height: 100vh;
+  margin-left: 700px;
+  background-image: url("https://drive.google.com/uc?export=view&id=1zyNslxHgutJd_UidDsMgO5LztWJSM0UC");
+  background-position: center;
+  background-size: cover;
+}
+/*content*/
+#content{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.content-left {
+	flex-basis: 50%;
+}
+
+.content-left img{
+	width: 100%;
+}
+.content-right
+{
+	margin-top: -100px;
+	flex-basis: 50%;
+}
+
+/*content 2*/
+#content-dua{
+	margin-top: -130px;
+}
+.content-row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.content-right-col{
+	flex-basis: 50%;
+}
+.content-right-col img{
+	width:  100%;
+}
+.content-left-col {
+	width:  50%;
+}
+
+footer {
+    display: flex;
+    padding: 2em 8% 5em;
+    background: #f9f9f9;
+}
+
+
+footer div {
+    width: 20%;
+}
+
+footer h6 {
+    margin: 1em 0;
+    margin-left: 45px;
+}
+
+footer a {
+    display: block;
+    margin: 1em 0;
+    font-family: Pacifico;
+    color: #ababab;
+    transition: .2s;
+}
+
+footer a:hover {
+    color: #000;
+}
+
+
+
+/*responsive*/
+
+@media all and (max-width: 576px) {
+#header {
+	margin-left: 0px;
+	flex-basis: 20%;
+}
+  /*content*/
+.content-left {
+	flex-basis: 100%;
+}
+.content-right-col{
+	flex-basis: 100%;
+}
+h2{
+	margin: 20px;
+	padding: 40px;
+	
+}
+   h5{
+  	margin-right:  -140px;
+  	margin-left: 70px;
+  	margin-top: -20px;
+  	margin-bottom: 80px;
+ 	text-align: center; 	
+  }
+footer h6 {
+    margin-left: 15px;
+}
+}
+footer {
+ 
+    padding: 4em 2% 8em;
+
+
+}
+
+

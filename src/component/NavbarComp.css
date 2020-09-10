@@ -1,0 +1,54 @@
+ .navbar{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+	
+}
+
+a {
+	font-family: Pacifico;
+	font-size: 18px;
+	scroll-behavior: smooth;
+}
+
+.navbar-brand{
+	font-size: 33px;
+}
+
+.nav-link, .about{
+	margin-left: 30px;
+}
+.navbar-nav, .btn{
+
+font-family: arial;
+padding: 8px;
+margin: 2px;
+margin-left: 30px;
+}
+
+.about{
+width: 100px;
+background-color: #36A5B2; 
+border-radius: 20px;
+box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+transition-duration: 0.4s;
+cursor: pointer;
+
+}
+.about:hover {
+  color: white;
+}
+
+@media (max-width: 576px) {
+.nav-link, .about {
+	margin-left: 0px; 
+}
+  .about{
+  	width: 100%
+  }
+	
+.navbar{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+	background-color: #0000;
+}
+
+
+  }
